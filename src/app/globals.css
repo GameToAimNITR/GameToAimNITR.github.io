@@ -468,10 +468,14 @@
   }
   /* Custom Cyberpunk Button End */
 
+  /* =====================
+     CUSTOM CURSOR STYLES
+     ===================== */
+
   .custom-cursor {
-    --cursor-size: 28px;
+    --cursor-size: 32px;
     --cursor-color: hsl(var(--accent));
-    --cursor-stroke-width: 2px;
+    --cursor-stroke-width: 2.5px;
 
     position: fixed;
     width: var(--cursor-size);
@@ -489,6 +493,7 @@
     opacity: 0;
   }
 
+  /* Crosshair lines */
   .custom-cursor::before,
   .custom-cursor::after {
     content: "";
@@ -506,6 +511,10 @@
     width: 100%;
     height: var(--cursor-stroke-width);
     transform: translateY(-50%) scaleX(1);
+    /* Dark outline for contrast on any background */
+    box-shadow:
+      0 1px 0 hsl(0 0% 0% / 0.6),
+      0 -1px 0 hsl(0 0% 0% / 0.6);
   }
 
   .custom-cursor::after {
@@ -515,8 +524,33 @@
     width: var(--cursor-stroke-width);
     height: 100%;
     transform: translateX(-50%) scaleY(1);
+    /* Dark outline for contrast on any background */
+    box-shadow:
+      1px 0 0 hsl(0 0% 0% / 0.6),
+      -1px 0 0 hsl(0 0% 0% / 0.6);
   }
 
+  /* Center dot — the key visibility fix */
+  .cursor-dot {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 5px;
+    height: 5px;
+    background: var(--cursor-color);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    transition:
+      background 0.2s ease-out,
+      transform 0.2s ease-out,
+      opacity 0.2s ease-out;
+    /* Dark ring for contrast + cyan glow */
+    box-shadow:
+      0 0 0 1.5px hsl(0 0% 0% / 0.7),
+      0 0 6px hsl(var(--accent) / 0.9);
+  }
+
+  /* Pointer state — scale up crosshair, hide dot */
   .custom-cursor.is-pointer {
     transform: translate(-50%, -50%) scale(1.5);
   }
@@ -529,11 +563,26 @@
     transform: translateX(-50%) scaleY(0.7);
   }
 
+  .custom-cursor.is-pointer .cursor-dot {
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 0;
+  }
+
+  /* Click state — switch to primary color */
   .custom-cursor.is-clicked::before,
   .custom-cursor.is-clicked::after {
     background: hsl(var(--primary));
   }
 
+  .custom-cursor.is-clicked .cursor-dot {
+    background: hsl(var(--primary));
+    transform: translate(-50%, -50%) scale(1.5);
+    box-shadow:
+      0 0 0 1.5px hsl(0 0% 0% / 0.7),
+      0 0 8px hsl(var(--primary) / 0.9);
+  }
+
+  /* Shoot recoil animations */
   .custom-cursor.is-shooting::before {
     animation: shoot-recoil-x 0.2s ease-out;
   }
@@ -567,6 +616,10 @@
       transform: translateX(-50%) scaleY(1);
     }
   }
+
+  /* =====================
+     END CUSTOM CURSOR
+     ===================== */
 
   .parallax-section {
     position: relative;
@@ -1249,7 +1302,7 @@
       clip-path: polygon(0 20%, 100% 20%, 100% 22%, 0 22%);
     }
     60% {
-      transform: -1px, 2px) skewX(-5deg);
+      transform: translate(-1px, 2px) skewX(-5deg);
     }
     80% {
       transform: translate(0, 0) skewX(0);
