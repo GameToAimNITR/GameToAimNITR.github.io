@@ -27,6 +27,17 @@ import { shivomArpanBehera } from './shivomArpanBehera';
 import { shubhamPrakash } from './shubham-prakash';
 import { sivanshuSurya } from './sivanshuSurya';
 import { sumitKumarSahu } from './sumitKumarSahu';
+import { adarshKumar } from './adarshKumar';
+import { adityaPradhan } from './adityaPradhan';
+import { anubhavDash } from './anubhavDash';
+import { arnabNaskar } from './arnabNaskar';
+import { devamSurti } from './devamSurti';
+import { mrityunjayDevGangwar } from './mrityunjayDevGangwar';
+import { omChanshetti } from './omChanshetti';
+import { pratikChoudhury } from './pratikChoudhury';
+import { rajeshPuripanda } from './rajeshPuripanda';
+import { saiArpitDash } from './saiArpitDash';
+import { sairajTripathy } from './sairajTripathy';
 
 export const members: Member[] = [
   adityaArunav,
@@ -55,6 +66,17 @@ export const members: Member[] = [
   shubhamPrakash,
   sivanshuSurya,
   sumitKumarSahu,
+  adarshKumar,
+  adityaPradhan,
+  anubhavDash,
+  arnabNaskar,
+  devamSurti,
+  mrityunjayDevGangwar,
+  omChanshetti,
+  pratikChoudhury,
+  rajeshPuripanda,
+  saiArpitDash,
+  sairajTripathy,
 ].sort((a, b) => {
   // Role priority list
   const roleOrder = [

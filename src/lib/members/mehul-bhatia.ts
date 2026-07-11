@@ -12,7 +12,7 @@ export const mehulBhatia: Member = {
     { name: 'Visuals', level: 90 },
     { name: 'Storytelling', level: 80 },
   ],
-  specialAbility: 'Visual Storyteller',
+  specialAbility: 'Bugmaster',
   bio: 'I was always interested in the world of 3D and loved to play games and also stream them, especially the ones with good stories and visuals.',
   linkedinUrl: 'https://www.linkedin.com/in/mehul-bhatia-nitrkl',
 };
