@@ -12,7 +12,7 @@ export const pratikChoudhury: Member = {
     { name: 'Asset Design', level: 76 },
     { name: 'Texturing', level: 75 },
   ],
-  specialAbility: 'pratik.choudhury',
+  specialAbility: 'HamiscusWadilus',
   bio: 'Designs 3D assets for club game projects. Known online as HamiscusWadilus.',
   linkedinUrl: 'https://www.linkedin.com/in/pratik-choudhury-07266a37a',
   githubUrl: 'https://github.com/PratikChoudhury07',

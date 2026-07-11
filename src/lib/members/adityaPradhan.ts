@@ -12,7 +12,7 @@ export const adityaPradhan: Member = {
     { name: 'Game Programming', level: 80 },
     { name: 'Problem Solving', level: 78 },
   ],
-  specialAbility: 'aditya.pradhan',
+  specialAbility: 'ChekMate',
   bio: 'Member of the Code Team, primarily working with the Godot Engine. Known in the community as ChekMate.',
   linkedinUrl: '',
   githubUrl: 'https://github.com/Chekmate90',

@@ -12,7 +12,7 @@ export const mrityunjayDevGangwar: Member = {
     { name: 'Scripting', level: 76 },
     { name: 'Problem Solving', level: 76 },
   ],
-  specialAbility: 'mrityunjay.dev.gangwar',
+  specialAbility: 'MJ_606',
   bio: 'Codes game mechanics as part of the Code Team. Goes by MJ_606.',
   linkedinUrl: 'https://www.linkedin.com/in/mrityunjay-dev-gangwar-400584371',
   githubUrl: 'https://github.com/MJ606782',

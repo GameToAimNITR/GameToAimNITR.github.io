@@ -12,7 +12,7 @@ export const sairajTripathy: Member = {
     { name: 'Game Design', level: 87 },
     { name: 'Rapid Prototyping', level: 88 },
   ],
-  specialAbility: 'sairaj.tripathy',
+  specialAbility: 'SAIGEEK',
   bio: 'Part of the Code Team, known for turning rough concepts into polished, playable slices under tight deadlines by writing core game logic and state systems. Goes by SAIGEEK.',
   linkedinUrl: 'https://www.linkedin.com/in/sairaj-tripathy',
   githubUrl: 'https://github.com/SairajTripathy-0077',

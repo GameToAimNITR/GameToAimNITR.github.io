@@ -12,7 +12,7 @@ export const devamSurti: Member = {
     { name: 'Animation', level: 76 },
     { name: 'Texturing', level: 77 },
   ],
-  specialAbility: 'devam.surti',
+  specialAbility: 'Devam',
   bio: 'Builds 3D models and light animation work in Blender for club projects.',
   linkedinUrl: 'https://www.linkedin.com/in/devam-surti-261621309',
   githubUrl: 'https://github.com/techist-dev',

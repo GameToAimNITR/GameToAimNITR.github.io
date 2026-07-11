@@ -12,7 +12,7 @@ export const saiArpitDash: Member = {
     { name: 'Level Design', level: 79 },
     { name: 'Coding', level: 76 },
   ],
-  specialAbility: 'sai.arpit.dash',
+  specialAbility: 'Arpit_Dash07',
   bio: 'Designs game mechanics, level layouts, and core gameplay loops, while also contributing to coding. Known as Arpit_Dash07.',
   linkedinUrl: 'https://www.linkedin.com/in/sai-arpit-dash-18b438387',
 };

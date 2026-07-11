@@ -12,7 +12,7 @@ export const omChanshetti: Member = {
     { name: 'Texturing', level: 82 },
     { name: 'Concept Design', level: 80 },
   ],
-  specialAbility: 'om.chanshetti',
+  specialAbility: 'Astromonarch_07',
   bio: "A 3D designer focused on crafting out-of-this-world visuals for the club's projects.",
   linkedinUrl: 'https://www.linkedin.com/in/om-chanshetti-093445372',
   githubUrl: 'https://github.com/om-Chanshetti',

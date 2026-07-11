@@ -12,7 +12,7 @@ export const rajeshPuripanda: Member = {
     { name: 'Web Development', level: 83 },
     { name: 'Game Development', level: 84 },
   ],
-  specialAbility: 'rajesh.puripanda',
+  specialAbility: 'Rajesh Puripanda',
   bio: 'Wears many hats across the club as Creative Head, game developer, web developer, and designer — building, fixing, and improving every project he touches.',
   linkedinUrl: 'https://linkedin.com/in/rajeshpuripanda',
   githubUrl: 'https://github.com/rajesh-puripanda',

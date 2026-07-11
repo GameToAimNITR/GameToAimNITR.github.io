@@ -12,7 +12,7 @@ export const adarshKumar: Member = {
     { name: 'Frontend Development', level: 75 },
     { name: 'UI Design', level: 75 },
   ],
-  specialAbility: 'adarsh.kumar',
+  specialAbility: 'Bolt',
   bio: 'Builds and manages the GTA club website as part of the Web Development Team. Goes by Bolt.',
   linkedinUrl: '',
 };
